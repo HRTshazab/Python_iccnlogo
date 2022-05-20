@@ -1,1 +1,6 @@
 8
+git clone https://github.com/Fuzail98/iccn-theme.git
+cd iccn-theme/
+cp *.* /usr/local/opnsense/www/themes/tukan/build/images/
+cd ..
+rm -r iccn-theme/
